@@ -6,10 +6,16 @@ int sum(int a,int b)
 return a+b;
 }
 
+int sub(int a,int b)
+{
+return a-b;
+}
+
 
 int main()
 {
 int num1,num2;
 cin>>num1>>num2;
 cout<<"Sum:"<<sum(sum1,num2);
+cout<<"Sub:"<<sub(sum1,num2);
 }
